@@ -5,7 +5,7 @@ from colorama import Fore
 
 while True:
     user = ""
-    for character in random.choices("abcdefghijklmnopqrstuvwxyz1234567890_", k=5):
+    for character in random.choices("abcdefghijklmnopqrstuvwxyz1234567890_", k=4):
         user = user + character
 
     url = f"https://www.instagram.com/{user}/"
